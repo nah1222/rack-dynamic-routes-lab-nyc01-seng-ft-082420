@@ -1,3 +1,3 @@
 class Application
   @@items = []
-  def call
+  def call Rack::response
