@@ -1,4 +1,4 @@
 class Application
   @@items = []
-  def call Rack::Response.new
-    req = 
+  def call
+    Rack::Response
